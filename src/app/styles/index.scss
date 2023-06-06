@@ -1,14 +1,16 @@
-@import 'reset.scss';
-@import './variables/global.scss';
-@import './themes/normal.scss';
-@import './themes/dark.scss';
+@import 'reset';
+@import 'variables/global';
+@import 'themes/normal';
+@import 'themes/dark';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 .app {
 	font-family: 'Roboto', sans-serif;
+	background: var(--bg-color);
+	color: var(--primary-color);
 
-	font-size: $font-size-m;
-	line-height: $font-line-m;
+	font-size: var(--font-size-m);
+	line-height: var(--font-line-m);
 	margin: 0 auto;
 	max-width: 1000px;
 	width: 100%;

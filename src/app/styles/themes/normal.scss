@@ -1,8 +1,10 @@
-$bg-color: #eeeeee;
-$primary-color: #171332;
-$secondary-color: #2a5d67;
+:root {
+	--bg-color: #e8e8ea;
+	--inverted-bg-color: #090949;
 
-.light {
-	background: $bg-color;
-	color: $primary-color;
+	--primary-color: #0232c2;
+	--secondary-color: #0449e0;
+
+	--inverted-primary-color: #049604;
+	--inverted-secondary-color: #04ff04;
 }
